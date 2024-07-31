@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>questionário</title>
+</head>
+<body>
+    <div>
+        <h1>Questionário</h1>
+        <p>Complete suas informações</p>
+    </div>
+    <main>
+        <form >
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><h3>Nome</h3></label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div class="campo">
+                    <label><h3>Sobrenome</h3></label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset><br>
+
+            <div class="campo">
+                <label><h3>A Flávia te estressa?</h3></label>
+                <label>
+                    <input type="radio" name="humor" value="nao">Não 
+                </label> 
+                <label>
+                    <input type="radio" name="humor" value="um pouco">Um pouco 
+                </label>     
+                <label>
+                    <input type="radio" name="humor" value="sim">Sim 
+                </label>            
+                <label>
+                    <input type="radio" name="humor" value="muito">Muito 
+                </label>  
+            </div><br>
+
+            <div class="campo">
+                <label><h3>De 8 a 10, o quanto você odeia a Flávia?</h3></label>
+                <label>
+                    <input type="radio" name="metrica" value="8">8 
+                </label>
+                <label>
+                    <input type="radio" name="metrica" value="9">9 
+                </label>
+                <label>
+                    <input type="radio" name="metrica" value="10">10 
+                </label>
+            </div><br>
+
+            <div class="campo">
+                <label><h3>Qual funcionário seria um supervisor melhor que a Flávia?</h3></label>
+                <label>
+                    <select id="jonathan">
+                        <option selected disabled value=""></option>
+                        <option>Jonathan</option>
+                        <option>Jonathan</option>
+                        <option>Jonathan</option>
+                    </select></label>
+            </div><br>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><h3>Selecione os defeitos da Flávia aqui.</h3></label>
+                    <input type="checkbox" id="defeito1" name="defeitos" value="adjetivos">
+                    <label for="defeito1">Irresponsabilidade</label><br>
+                    <input type="checkbox" id="defeito2" name="defeitos" value="adjetivos">
+                    <label for="defeito2">Procastina muito</label><br>
+                    <input type="checkbox" id="defeito3" name="defeitos" value="adjetivos">
+                    <label for="defeito3">Irresponsabilidade</label><br>
+                    <input type="checkbox" id="defeito4" name="defeitos" value="adjetivos">
+                    <label for="defeito4">Não sai do celular</label><br>
+                    <input type="checkbox" id="defeito5" name="defeitos" value="adjetivos">
+                    <label for="defeito5">Atrasa com frequência</label><br>
+                    <input type="checkbox" id="defeito6" name="defeitos" value="adjetivos">
+                    <label for="defeito6">Fuma muito</label>
+                </div><br><br>
+            </fieldset><br><br>
+
+
+            <div class="campo">
+                <label><h6>Email</h3></label>
+                <input type="email" name="email" id="email">
+            </div>
+
+
+
+            <a href="img/flavia.png"><button type="submit" class="botao"></button>Concluído</button></a>
+        </form>
+    </main>
+    
+</body>
+</html>
