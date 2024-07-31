@@ -5,17 +5,17 @@
 }
 
 /* Elementos com o ID "titulo" */
-#titulo {
+h1 {
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 7%;
+    margin-left: 15%;
 } 
 
 /* Elementos com o ID "subtitulo" */
-#subtitulo {
+p {
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 10%;
+    margin-left: 15%;
 } 
 
 #check{
